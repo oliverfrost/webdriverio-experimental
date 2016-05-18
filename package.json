@@ -1,0 +1,19 @@
+{
+  "name": "wdio-experimental",
+  "version": "1.0.0",
+  "description": "awdawd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "awd"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "wdio-allure-reporter": "0.0.2",
+    "wdio-mocha-framework": "^0.2.13",
+    "webdriverio": "^4.0.7"
+  }
+}
