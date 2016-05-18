@@ -15,5 +15,8 @@
     "wdio-allure-reporter": "0.0.2",
     "wdio-mocha-framework": "^0.2.13",
     "webdriverio": "^4.0.7"
+  },
+  "dependencies": {
+    "chai": "^3.5.0"
   }
 }
