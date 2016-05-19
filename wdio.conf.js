@@ -166,8 +166,10 @@ exports.config = {
     // },
     //
     // Function to be executed before a test (in Mocha/Jasmine) or a step (in Cucumber) starts.
-    // beforeTest: function (test) {
-    // },
+    beforeTest: function (test) {
+        console.log("Before each?");
+        browser.deleteCookie();
+    },
     //
     // Runs before a WebdriverIO command gets executed.
     // beforeCommand: function (commandName, args) {
@@ -178,8 +180,9 @@ exports.config = {
     // },
     //
     // Function to be executed after a test (in Mocha/Jasmine) or a step (in Cucumber) starts.
-    // afterTest: function (test) {
-    // },
+    afterTest: function (test) {
+       
+    },
     //
     // Hook that gets executed after the suite has ended
     // afterSuite: function (suite) {
