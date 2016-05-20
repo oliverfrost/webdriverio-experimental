@@ -1,6 +1,8 @@
 var expect = require('chai').expect,
     TasksPage = require('../../lib/simple_tasks/TasksPage');
 
+var config = require('../../lib/constants');
+
 describe('Adding, Removing and Editing Tasks', function() {
     let taskName = "My New Task";
     
@@ -26,3 +28,24 @@ describe('Adding, Removing and Editing Tasks', function() {
         expect(tasksPage.listOfTasks.length, '[ERROR] Extra task is present').to.be.below(amountOfTasksBefore);
     });
 });
+
+
+
+describe('Creating, Removing and Editing Lists', function() {
+    let listName = "My New Task";
+
+    it.only('Should add new list', function () {
+        let tasksPage = new TasksPage();
+
+        tasksPage.open();
+        //tasksPage.createNewList(listName);
+        
+      
+        
+     
+    });
+
+});
+
+
+
